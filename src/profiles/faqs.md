@@ -15,7 +15,7 @@ Identity Graph automatically collects a rich set of external IDs without any add
 4. Common external IDs (`email`)
 5. Cross domain analytics IDs (`cross_domain_id`)
 
-If you want Identity Graph to operate on a different custom ID, you can pass it in using `context.externalIds` on an `identify()` or `track()`. If you're interested in this feature, contact your CSM to discuss the best way to implement this feature.
+If you want Identity Graph to operate on a different custom ID, you can pass it in using `context.externalIds` on an `identify()` or `track()`. If you're interested in this feature, contact your CSM to discuss the best way to implement it.
 
 ## How does Profiles handle identity merging?
 Each incoming event is analyzed and external IDs are extracted (`user_id`, `anonymous_id`, `email`). The simplified algorithm works as follows:
